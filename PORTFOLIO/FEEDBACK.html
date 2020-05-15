@@ -1,0 +1,111 @@
+<html>
+
+   <head></head>
+   
+   <title> My Portfolio	</title>
+   
+   <style type=	"text/css">
+   div#top{
+   background-color:purple;
+   width:1130px;
+   height:100px;
+   padding: 20px 50px 10px 80px;
+   font-style:italic;
+   font-size:500%;
+   text-align:center;
+   color:white;
+   
+   }
+   
+   div#middle{
+   background-color:LightSkyBlue;
+   width:1130px;
+   height:400px;
+   padding:20px 50px 10px 80px;
+   
+   }
+   
+    body{
+   background:black;
+   }
+   
+   .active {
+	float : right;
+	list-style: none;
+	margin-top : -250px;
+    }
+	
+	h1{
+	text-align:center;
+	font-family:sans-serif;
+	}
+  
+   
+   </style>
+   
+   
+    
+   <body>
+   <div id="top"> 
+   <div>FEEDBACK</div> 
+   
+   <table  border="0" align="left" >
+	<tr><td><a href="PORTFOLIO.html"><img src="./images/pf.jpeg" alt="profile" width="40px" height="40px" /></td>
+	<td><a href="SKILL.html"><img src="./images/s.png" alt="profile" width="40px" height="40px" /></td>
+	<td><a href="GALLERY.html"><img src="./images/g.jpg" alt="profile" width="40px" height="40px" /></td>
+	<td><a href="CONTACT.html"><img src="./images/c.png" alt="profile" width="40px" height="40px" /></td>
+	<td><a href="FEEDBACK.html"><img src="./images/m.png" alt="profile" width="40px" height="40px" /></td></tr>
+	</table>
+   </div>
+   <div id="middle"> 
+   
+    <h1>FeedBack Form</h1>
+	<p align="center">I would love to here your though or feedback, so i can improve it</p>
+	
+	
+	
+  <form  id="myForm " align="center" >
+  <p>feedback type</p>
+  
+  <input type="radio" id="comment" name="feedback" value="comment">
+  <label for="comment">Comment</label>
+  <input type="radio" id="suggest" name="feedback" value="suggest">
+  <label for="suggest">Suggest</label>
+  <input type="radio" id="other" name="feedback" value="other">
+  <label for="other">Other</label>
+  <br>
+  <br>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+  
+  <br>
+  <p>Describe Feedback</p>
+  <textarea name="Comment" width=500 height=500 >Please Insert Your Comment Here</textarea><br>
+  
+  <td colspan="2" style="text-align:center;">
+  <button type="button" onclick="alert('Feedback has been sent!')"><input type="submit" ></button>
+  </form>
+	
+	
+   
+  </div>
+   
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   </body>
+
+
+
+
+
+
+
+</html>
